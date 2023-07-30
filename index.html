@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Years Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="inputs">
+                <div class="day">
+                    <p class="above">Day</p>
+                    <input type="text" class="d-input" id="day-input" placeholder="DD">
+                    <p id="error-d"></p>
+                </div>
+                <div class="month">
+                    <p class="above">Month</p>
+                    <input type="text" class="m-input" id="month-input" placeholder="MM">
+                    <p id="error-m"></p>
+                </div>
+                <div class="year">
+                    <p class="above">Year</p>
+                    <input type="text" class="y-input" id="year-input" placeholder="YYYY">
+                    <p id="error-y"></p>
+                </div>
+            </div>
+            <hr>
+            <button id="button"><img src="icon-arrow.svg"></button>
+            <div class="results">
+                <h1><span id="years-word" style="color:hsl(259, 100%, 65%)">--</span> years</h1>
+                <h1><span id="months-word" style="color:hsl(259, 100%, 65%)">--</span> months</h1>
+                <h1><span id="days-word" style="color:hsl(259, 100%, 65%)">--</span> days</h1>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
