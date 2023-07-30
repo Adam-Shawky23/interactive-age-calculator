@@ -1,0 +1,87 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background-color: white;
+    margin:auto;
+    width: 900px;
+    position: relative;
+    top: 40px;
+    border-radius: 15px 15px 130px 15px;
+
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    display: inline;
+    margin:20px 0px 5px 0px;
+}
+.year{
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
+
+}
+.month{
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+   
+}
+.day{
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.results{
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 800i;
+
+}
+input{
+    font-size:32px;
+    width:90px;
+    height:30px;
+}
+.above{
+    color:grey;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+.inputYear.error{
+    border:1px solid hsl(0, 100%, 67%)
+}
+#error-y{
+    color:hsl(0, 100%, 67%);
+    font-size: 20px
+}
+#error-m{
+    color:hsl(0, 100%, 67%);
+    font-size: 20px
+}
+#error-d{
+    color:hsl(0, 100%, 67%);
+    font-size: 20px
+}
+button{
+   background-color: hsl(259, 100%, 65%);
+   border-radius:50%;
+   position:absolute;
+   top:155px;
+   right:20px;
+   width:60px;
+}
+hr{
+    position: relative;
+}
